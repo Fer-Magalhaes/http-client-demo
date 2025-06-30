@@ -166,17 +166,3 @@ export const listTodos = () => http.get<Todo[]>('/todos');
 > 
 
 ```
-markdown
-CopiarEditar
-<br>
-
-### O que foi corrigido
-
-- **Menu agora persiste**: o `readline` é instanciado **uma única vez** e passado às opções, evitando que a aplicação feche após cada execução.
-- README atualizado para refletir a remoção das opções *Create TODO* e *Clear token*.
-
-Pronto! Basta salvar o conteúdo acima em `README.md` e versionar junto ao seu projeto.
-
-```
-
-Perguntar ao ChatGPT
