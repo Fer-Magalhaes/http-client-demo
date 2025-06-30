@@ -1,0 +1,20 @@
+{
+  "name": "http-client-demo",
+  "private": true,
+  "version": "beta 0.0.1",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "viewer": "TS_NODE_TRANSPILE_ONLY=1 ts-node src/viewer/index.ts",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.4",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.0"
+  }
+}
